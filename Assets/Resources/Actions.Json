@@ -1,0 +1,60 @@
+[
+    {
+        "Key": "ActiveActionsDB",
+        "Value": {
+            "entries": [
+                {
+                    "Key": "BASIC_SWIPE",
+                    "Value": {
+                        "selected": false,
+                        "data": {
+                            "Action": {
+                                "ResourceType": {
+                                    "resourcePath": "Scripts\\Actions\\BasicSwipe",
+                                    "fullPath": "Assets/Resources/Scripts/Actions/BasicSwipe.cs",
+                                    "objType": "MonoScript",
+                                    "icon": "cs Script Icon",
+                                    "$type": "ResourceType"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": "UP_SLASH",
+                    "Value": {
+                        "selected": false,
+                        "data": {
+                            "Action": {
+                                "ResourceType": {
+                                    "resourcePath": "Scripts\\Actions\\UpSalsh",
+                                    "fullPath": "Assets/Resources/Scripts/Actions/UpSalsh.cs",
+                                    "objType": "MonoScript",
+                                    "icon": "cs Script Icon",
+                                    "$type": "ResourceType"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": "GROUNDPOUND",
+                    "Value": {
+                        "selected": false,
+                        "data": {
+                            "Action": {
+                                "ResourceType": {
+                                    "resourcePath": null,
+                                    "fullPath": null,
+                                    "objType": null,
+                                    "icon": null,
+                                    "$type": "ResourceType"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]

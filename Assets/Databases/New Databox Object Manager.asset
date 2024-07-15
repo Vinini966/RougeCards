@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 270af328567828e4a9bd013ebdbed512, type: 3}
+  m_Name: New Databox Object Manager
+  m_EditorClassIdentifier: 
+  dataObjects:
+  - id: HerosDB
+    dataObject: {fileID: 11400000, guid: b82bec2e35b44df4bb1eedd0cb2f605c, type: 2}
+    editorOpen: 0
+  - id: CardDB
+    dataObject: {fileID: 11400000, guid: 349e3d6e2d3a06647a866e9d946c3ad8, type: 2}
+    editorOpen: 0
+  - id: AbilityDB
+    dataObject: {fileID: 11400000, guid: 76548394cd73f824da88e7c127a444a7, type: 2}
+    editorOpen: 0

@@ -1,0 +1,30 @@
+[
+    {
+        "Key": "CardDB",
+        "Value": {
+            "entries": [
+                {
+                    "Key": "Basic_Swipe",
+                    "Value": {
+                        "selected": false,
+                        "data": {
+                            "Card": {
+                                "CardType": {
+                                    "_name": "Swipe",
+                                    "_desc": null,
+                                    "AbilityList": [
+                                        {
+                                            "Active": true,
+                                            "ID": "BASIC_SWIPE"
+                                        }
+                                    ],
+                                    "$type": "CardType"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]
