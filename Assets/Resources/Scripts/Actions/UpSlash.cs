@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UpSalsh : MonoBehaviour
+public class UpSlash : IAction
 {
     public bool CanPerformAction()
     {

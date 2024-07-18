@@ -27,8 +27,8 @@
                         "data": {
                             "Action": {
                                 "ResourceType": {
-                                    "resourcePath": "Scripts\\Actions\\UpSalsh",
-                                    "fullPath": "Assets/Resources/Scripts/Actions/UpSalsh.cs",
+                                    "resourcePath": "Scripts\\Actions\\UpSlash",
+                                    "fullPath": "Assets/Resources/Scripts/Actions/UpSlash.cs",
                                     "objType": "MonoScript",
                                     "icon": "cs Script Icon",
                                     "$type": "ResourceType"
@@ -44,10 +44,10 @@
                         "data": {
                             "Action": {
                                 "ResourceType": {
-                                    "resourcePath": null,
-                                    "fullPath": null,
-                                    "objType": null,
-                                    "icon": null,
+                                    "resourcePath": "Scripts\\Actions\\GroundPound",
+                                    "fullPath": "Assets/Resources/Scripts/Actions/GroundPound.cs",
+                                    "objType": "MonoScript",
+                                    "icon": "cs Script Icon",
                                     "$type": "ResourceType"
                                 }
                             }

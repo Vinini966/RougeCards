@@ -11,7 +11,8 @@ public class GameManager : MonoBehaviour
 
     public HeroFactory Factory;
     public InputManger InputManger;
-    public ActionDatabaseManager ActionManager;
+    public ActionDatabaseManager ActionDatabaseManager;
+    public ActionEquipManager ActionEquipManager;
 
     // Start is called before the first frame update
     void Awake()
@@ -28,9 +29,14 @@ public class GameManager : MonoBehaviour
 
         Factory = Instantiate(HeroFactory, SpawnPosistion, Quaternion.identity, transform).GetComponent<HeroFactory>();
         InputManger = FindObjectOfType<InputManger>();
-        ActionManager = FindObjectOfType<ActionDatabaseManager>();
+        ActionDatabaseManager = FindObjectOfType<ActionDatabaseManager>();
+        ActionEquipManager = FindObjectOfType<ActionEquipManager>();
 
         Factory.HeroToMake = "BASIC_BILLY";
+
+        ActionEquipManager.EquipAction(0, "BASIC_SWIPE");
+        ActionEquipManager.EquipAction(1, "UP_SLASH");
+        ActionEquipManager.EquipAction(2, "GROUNDPOUND");
     }
 
     // Update is called once per frame

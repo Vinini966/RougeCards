@@ -22,7 +22,7 @@ public class PrototypeHeroAnimEvents : MonoBehaviour
     void Start()
     {
         m_player = GetComponentInParent<PrototypeHero>();
-        m_audioManager = AudioManager_PrototypeHero.instance;
+        //m_audioManager = AudioManager_PrototypeHero.instance;
     }
 
     // Animation Events
@@ -42,7 +42,7 @@ public class PrototypeHeroAnimEvents : MonoBehaviour
 
     void AE_runStop()
     {
-        m_audioManager.PlaySound("RunStop");
+       // m_audioManager.PlaySound("RunStop");
         float dustXOffset = 0.6f;
         float dustYOffset = 0.078125f;
         m_player.SpawnDustEffect(m_RunStopDust, dustXOffset, dustYOffset);
@@ -50,12 +50,12 @@ public class PrototypeHeroAnimEvents : MonoBehaviour
 
     void AE_footstep()
     {
-        m_audioManager.PlaySound("Footstep");
+        //m_audioManager.PlaySound("Footstep");
     }
 
     void AE_Jump()
     {
-        m_audioManager.PlaySound("Jump");
+        //m_audioManager.PlaySound("Jump");
 
         if(!m_player.IsWallSliding())
         {
@@ -70,19 +70,19 @@ public class PrototypeHeroAnimEvents : MonoBehaviour
 
     void AE_Landing()
     {
-        m_audioManager.PlaySound("Landing");
+        //m_audioManager.PlaySound("Landing");
         float dustYOffset = 0.078125f;
         m_player.SpawnDustEffect(m_LandingDust, 0.0f, dustYOffset);
     }
 
     void AE_Throw()
     {
-        m_audioManager.PlaySound("Jump");
+        //m_audioManager.PlaySound("Jump");
     }
 
     void AE_Parry()
     {
-        m_audioManager.PlaySound("Parry");
+        //m_audioManager.PlaySound("Parry");
         float xOffset = 0.1875f;
         float yOffset = 0.25f;
         m_player.SpawnDustEffect(m_ParryEffect, xOffset, yOffset);
@@ -91,17 +91,17 @@ public class PrototypeHeroAnimEvents : MonoBehaviour
 
     void AE_ParryStance()
     {
-        m_audioManager.PlaySound("DrawSword");
+        //m_audioManager.PlaySound("DrawSword");
     }
 
     void AE_AttackAirSlam()
     {
-        m_audioManager.PlaySound("DrawSword");
+        //m_audioManager.PlaySound("DrawSword");
     }
 
     void AE_AttackAirLanding()
     {
-        m_audioManager.PlaySound("AirSlamLanding");
+        //m_audioManager.PlaySound("AirSlamLanding");
         float dustYOffset = 0.078125f;
         m_player.SpawnDustEffect(m_AirSlamDust, 0.0f, dustYOffset);
         m_player.DisableMovement(0.5f);
@@ -109,27 +109,27 @@ public class PrototypeHeroAnimEvents : MonoBehaviour
 
     void AE_Hurt()
     {
-        m_audioManager.PlaySound("Hurt");
+        //m_audioManager.PlaySound("Hurt");
     }
 
     void AE_Death()
     {
-        m_audioManager.PlaySound("Death");
+        //m_audioManager.PlaySound("Death");
     }
 
     void AE_SwordAttack()
     {
-        m_audioManager.PlaySound("SwordAttack");
+        //m_audioManager.PlaySound("SwordAttack");
     }
 
     void AE_SheathSword()
     {
-        m_audioManager.PlaySound("SheathSword");
+        //m_audioManager.PlaySound("SheathSword");
     }
 
     void AE_Dodge()
     {
-        m_audioManager.PlaySound("Dodge");
+        //m_audioManager.PlaySound("Dodge");
         float dustYOffset = 0.078125f;
         m_player.SpawnDustEffect(m_DodgeDust, 0.0f, dustYOffset);
     }
@@ -146,11 +146,11 @@ public class PrototypeHeroAnimEvents : MonoBehaviour
 
     void AE_LedgeGrab()
     {
-        m_audioManager.PlaySound("LedgeGrab");
+        //m_audioManager.PlaySound("LedgeGrab");
     }
 
     void AE_LedgeClimb()
     {
-        m_audioManager.PlaySound("RunStop");
+        //m_audioManager.PlaySound("RunStop");
     }
 }

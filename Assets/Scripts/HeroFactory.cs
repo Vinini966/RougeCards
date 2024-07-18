@@ -57,7 +57,7 @@ public class HeroFactory : MonoBehaviour
         Instantiate(sprite, go.transform);
 
         string baseAction = HeroDB.GetData<StringType>("HeroDB", heroToMake, "Base_Action").Value;
-        chacterController.BaseAction = GameManager.Instance.ActionManager.GetAction(baseAction);
+        chacterController.BaseAction = GameManager.Instance.ActionDatabaseManager.GetAction(baseAction);
 
         chacterController.m_runSpeed = HeroDB.GetData<FloatType>("HeroDB", heroToMake, "Run_Speed").Value;
         chacterController.m_walkSpeed = HeroDB.GetData<FloatType>("HeroDB", heroToMake, "Walk_Speed").Value;
